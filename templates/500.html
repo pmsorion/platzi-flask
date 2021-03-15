@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    {{super()}}
+    404 - No encontrado
+{% endblock %}
+
+{% block content %}
+    <h1>Error del servidor temporalmente fuera de servicio, intenta mas tarde</h1>
+    <p>{{ error }}</p>
+{% endblock %}
